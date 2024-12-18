@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+joblib
+stopwordsiso
+kagglehub
+textblob
+nltk
+setuptools
+xgboost
+catboost
