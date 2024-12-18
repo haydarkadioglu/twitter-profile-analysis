@@ -53,14 +53,6 @@ This will train the models and output the classification results along with the 
 ## Conclusion
 This project demonstrates how various machine learning models can be applied to sentiment analysis. By comparing the results, we can conclude which classifier performs best for this specific task. The top-performing models in terms of accuracy are Logistic Regression, Random Forest, and Extra Trees.
 
-
-### Libraries Used
-- `sklearn`: For regression and modeling.
-- `xgboost`: For using the XGBoost model.
-- `catboost`: For using the CatBoost model.
-- `pandas`: For data processing.
-- `numpy`: For mathematical computations.
-
 ## Installation
 
 To run the project, clone the repository and install the required libraries:
