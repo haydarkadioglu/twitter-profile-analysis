@@ -38,7 +38,7 @@ Several machine learning classifiers were trained and tested. Below are the accu
 
 ## How to Run
 1. Clone the repository:  
-   `git clone <repository_url>`
+   `git clone https://github.com/haydarkadioglu/sentence-analysis-updated.git`
    
 2. Install the required dependencies:  
    `pip install -r requirements.txt`
