@@ -10,3 +10,4 @@ nltk
 setuptools
 xgboost
 catboost
+tweepy
