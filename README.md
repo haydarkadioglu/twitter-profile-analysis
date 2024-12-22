@@ -1,5 +1,3 @@
-# Note: I'm stil working on it
-
 # Sentiment Analysis using Machine Learning
 
 This project uses machine learning algorithms to analyze text data and predict the sentiment (positive/negative) of a given sentence. The project involves text preprocessing, feature extraction, applying various classification models, and evaluating their performance.
@@ -73,9 +71,6 @@ The model's performance was evaluated using a confusion matrix, which provides d
 
 3. Prepare your dataset by placing it in the appropriate folder (`../dataset/tagged.csv`).
 
-4. Run the script:  
-   `python sentiment_analysis.py`
-
 This will train the models and output the classification results along with the predicted sentiment for the sample input sentences.
 
 ## Conclusion
@@ -84,8 +79,3 @@ This project demonstrates how various machine learning models can be applied to 
 ## Installation
 
 To run the project, clone the repository and install the required libraries:
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/haydarkadioglu/sentence-analysis.git
-   cd sentence-analysis
