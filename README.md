@@ -9,12 +9,18 @@ The goal of this project is to classify the sentiment of text data using Natural
 
 The project processes text data and applies different classifiers to predict the sentiment of the sentences. Results are compared based on the accuracy of each model, allowing us to select the best-performing model.
 
+## Features
+- **Sentiment Analysis**: Classifies tweets as Positive or Negative based on a trained Logistic Regression model.
+- **Monthly Tweet Analysis**: Extracts insights into the volume and sentiment of tweets over time.
+- **Visualization**: Generates graphs for monthly tweet counts and sentiment trends.
+
 ## Libraries Used
 The following Python libraries are used in this project:
 
 - `numpy`: For mathematical computations.
 - `pandas`: For data manipulation and analysis.
 - `matplotlib`: For creating graphs and visualizations.
+- `seaborn`: For advanced visualizations.
 - `scikit-learn`: For implementing machine learning algorithms.
 - `stopwordsiso`: Provides stopwords for sentiment analysis.
 - `joblib`: For saving and loading models.
@@ -36,9 +42,31 @@ Several machine learning classifiers were trained and tested. Below are the accu
 | CatBoost Classifier            | 84.86        |
 | XGBoost Classifier             | 49.67        |
 
+
+## Results
+### Performance Evaluation
+The model's performance was evaluated using a confusion matrix, which provides detailed insights into the classification accuracy across Neutral, Negative, and Positive sentiment classes.
+
+- **Confusion Matrix**:
+  Below is the confusion matrix showcasing the model's predictions compared to the actual labels:
+  
+  ![Confusion Matrix](images/image.png)
+
+- Key Observations:
+  - **Neutral Tweets**: High accuracy with minimal misclassifications.
+  - **Negative Tweets**: Most tweets are classified correctly, but there is some confusion with Positive tweets.
+  - **Positive Tweets**: High accuracy, but a notable number of misclassifications as Negative.
+
+### Visualizations
+1. **Monthly Tweet Counts**:
+   ![Example Graph 1](images/image2.png)
+
+2. **Monthly Sentiment Trends**:
+   ![Example Graph 2](images/image3.png)
+
 ## How to Run
 1. Clone the repository:  
-   `git clone https://github.com/haydarkadioglu/sentence-analysis-updated.git`
+   `git clone https://github.com/haydarkadioglu/twitter-profile-analysis.git`
    
 2. Install the required dependencies:  
    `pip install -r requirements.txt`
